@@ -6,7 +6,6 @@ def generate_password(min_length, numbers=True, special_characters=True):
     digits = string.digits
     special = string.punctuation
 
-    # add characters based on the parameters
     characters = letters
     if numbers:
         characters += digits
